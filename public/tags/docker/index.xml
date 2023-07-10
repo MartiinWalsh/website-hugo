@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Martin Walsh</title>
+    <link>https://martiinwalsh.com/tags/docker/</link>
+    <description>Recent content in Docker on Martin Walsh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Mar 2023 19:53:33 +0530</lastBuildDate><atom:link href="https://martiinwalsh.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Set Up Continuous Deployment for Your Node App with Cloud Run and Cloud Build</title>
+      <link>https://martiinwalsh.com/blogs/set-up-continuous-deployment-node-app-cloud-run-cloud-build/</link>
+      <pubDate>Tue, 14 Mar 2023 19:53:33 +0530</pubDate>
+      
+      <guid>https://martiinwalsh.com/blogs/set-up-continuous-deployment-node-app-cloud-run-cloud-build/</guid>
+      <description>Unlock the power of automation for your Node application! In this article, learn how to set up a Cloud Run service with continuous deployment using Cloud Build, streamlining your workflow and boosting productivity.
+Experience seamless updates as I show you how to automatically redeploy your application each time new code is pushed to a specified branch in your repository. Curious about the benefits of using Cloud Run? Check out this article.</description>
+    </item>
+    
+  </channel>
+</rss>
