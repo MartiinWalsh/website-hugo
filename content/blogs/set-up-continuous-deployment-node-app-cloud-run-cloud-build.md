@@ -18,7 +18,7 @@ Unlock the power of automation for your Node application! In this article, learn
 Experience seamless updates as I show you how to automatically redeploy your application each time new code is pushed to a specified branch in your repository. Curious about the benefits of using Cloud Run? Check out [this article](https://medium.com/google-cloud/why-i-definitively-switched-from-cloud-functions-to-cloud-run-635d03f1eb4d).
 ## Prerequisites
 
-**1. Node Application:** Ensure that your Node application has a package.json file with the necessary fields declared, as shown below:
+**1. Node Application:** Ensure that your Node application has a `package.json` file with the necessary fields declared, as shown below:
 ``` json
 {
   "name": "Example",
@@ -77,11 +77,11 @@ CMD npm run start
 
 **2. Configure Cloud Build:** In the Cloud Build Configuration, select your repository provider (Bitbucket, Github, etc.) and choose the repository where your application is hosted.
 
-![](/images/cloud1.webp)
+![Screenshot: Stage 1 of setting up cloud build](/static/images/cloud1.webp)
 
 **3.** Next, select the branch you wish to have continuous deployments from, and specify the Dockerfile location from the prerequisites. Then save your Cloud Build configuration settings.
 
-![](/images/cloud2.webp)
+![Screenshot: Stage 2 of setting up cloud build](/static/images/cloud2.webp)
 
 **5.** Customise Service Settings: Configure the remaining settings for your Cloud Run service according to your specific requirements, including authentication, container, connections, and security.
 
