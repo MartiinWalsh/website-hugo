@@ -15,8 +15,7 @@ toc:
 
 Unlock the power of automation for your Node application! In this article, learn how to set up a Cloud Run service with continuous deployment using Cloud Build, streamlining your workflow and boosting productivity.
 
-Experience seamless updates as I show you how to automatically redeploy your application each time new code is pushed to a specified branch in your repository. Curious about the benefits of using Cloud Run? Check out this article.
-
+Experience seamless updates as I show you how to automatically redeploy your application each time new code is pushed to a specified branch in your repository. Curious about the benefits of using Cloud Run? Check out [this article](https://medium.com/google-cloud/why-i-definitively-switched-from-cloud-functions-to-cloud-run-635d03f1eb4d).
 ## Prerequisites
 
 **1. Node Application:** Ensure that your Node application has a package.json file with the necessary fields declared, as shown below:
