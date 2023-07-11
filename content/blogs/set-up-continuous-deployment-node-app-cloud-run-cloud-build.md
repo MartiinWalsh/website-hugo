@@ -77,11 +77,11 @@ CMD npm run start
 
 **2. Configure Cloud Build:** In the Cloud Build Configuration, select your repository provider (Bitbucket, Github, etc.) and choose the repository where your application is hosted.
 
-![Screenshot: Stage 1 of setting up cloud build](/static/images/cloud1.webp)
+![Screenshot: Stage 1 of setting up cloud build](/images/cloud1.webp)
 
 **3.** Next, select the branch you wish to have continuous deployments from, and specify the Dockerfile location from the prerequisites. Then save your Cloud Build configuration settings.
 
-![Screenshot: Stage 2 of setting up cloud build](/static/images/cloud2.webp)
+![Screenshot: Stage 2 of setting up cloud build](/images/cloud2.webp)
 
 **5.** Customise Service Settings: Configure the remaining settings for your Cloud Run service according to your specific requirements, including authentication, container, connections, and security.
 
