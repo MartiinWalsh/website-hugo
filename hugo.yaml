@@ -120,7 +120,7 @@ params:
     intro: "Hi, my name is"
     title: "Martin."
     subtitle: "I'm a Software Engineer"
-    content: "Currently focused on creating things with Go,TypeScript, Node.js, React, and React Native!"
+    content: "Currently focused on creating things with Go, TypeScript, Node.js, React, and React Native!"
     image: images/alpaca.jpg
     bottomImage:
       enable: true
