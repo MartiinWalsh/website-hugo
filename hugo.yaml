@@ -120,7 +120,7 @@ params:
     intro: "Hi, my name is"
     title: "Martin."
     subtitle: "I'm a Software Engineer"
-    content: "Currently focused on creating things with TypeScript, Node.js, React, and React Native!"
+    content: "Currently focused on creating things with Go,TypeScript, Node.js, React, and React Native!"
     image: images/alpaca.jpg
     bottomImage:
       enable: true
@@ -200,7 +200,7 @@ params:
           - Boosted efficiency by 13% by developing a series of serverless Cloud Functions that automated workflows.
 
       - job: "Software Engineer"
-        company: "Ericcson"
+        company: "Ericsson"
         companyUrl: "https://www.ericsson.com/en"
         date: "Sep 2020 - Aug 2021"
         info:
