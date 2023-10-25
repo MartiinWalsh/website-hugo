@@ -120,15 +120,15 @@ params:
     intro: "Hi, my name is"
     title: "Martin."
     subtitle: "I'm a Software Engineer"
-    content: "Currently focused on creating things with Go, TypeScript, Node.js, React, and React Native!"
+    content: "Currently focused on creating things with TypeScript, Node.js, React, and React Native!"
     image: images/alpaca.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
-    button:
-      enable: true
+    button: 
+      enable: false
       name: "Resume"
-      url: "/martin-walsh-public-cv.pdf"
+      url: ""
       download: true
       newPage: false
     socialLinks:
@@ -151,19 +151,20 @@ params:
     title: "About Me"
     image: "/images/profile.jpg"
     content: |-
-      I am a software engineer working in a fast-paced startup, focused on full-stack web and mobile development. 
-      
-      In my spare time,  I am exploring the Go programming language and building an interpreter to deepen my understanding of it.
+      I am a software engineer working in a fast-paced startup, focused on full-stack web and mobile development.
+
+      In my spare time, I am building a full-stack application using the [T3 Stack](https://create.t3.gg/) (Next.js, TypeScript, tRPC, Prisma, NextAuth, and Tailwind CSS). This project, aims to streamline community interactions and local service provisions in a novel way.
+
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Professionally, here are a few technologies I've been working with recently:"
       items:
         - "JavaScript"
-        - "React"
+        - "TypeScript"
         - "Python"
+        - "Java"
+        - "React"
         - "Node"
-        - "Go"
-        - "Express"
 
   # Experience
   experience:
@@ -178,6 +179,9 @@ params:
           enable: false
           name: "View the project"
           url: "https://example.com"
+        info:
+          enable: true
+          content: "Technologies: TypeScript, React, Node.js, React Native & GCP."
         content: | 
           - Led full-stack product development, leveraging Typescript, React, Node.js, andGCP.
           - Rebuilt the business-facing portal from the ground up, utilising modern technologies to enhance customer experience.
@@ -192,8 +196,8 @@ params:
           enable: false
           url: "https://example.com"
         info:
-          enable: false 
-          content: I worked as a software engineer for Cityswift.
+          enable: true
+          content: "Technologies: Python, FastAPI, Kotlin, Docker, Terraform & GCP."
         content: |
           - Led a project that reduced each data ingestion process by over an hour,developing a cloud-hosted API service to carry out data changes.
           - Oversaw a project that successfully handles 10M+ weekly requests, creating aFastAPI application with a Cloud Run infrastructure.
@@ -203,15 +207,16 @@ params:
         company: "Ericsson"
         companyUrl: "https://www.ericsson.com/en"
         date: "Sep 2020 - Aug 2021"
-        info:
-          enable: false
         featuredLink:
           enable: false
           url: "https://example.com"
+        info:
+          enable: true
+          content: "Technologies: Java, Spring, Docker & Kubernetes."
         content: |
-          - Created a cloud-native app for testing 5G nodes.
-          - Led development of a Java & Spring app to identify OWASP vulnerabilities.
-          - Enhanced efficiency through software testing, bug fixing, and process documentation.
+          - Built a Java & Spring app to identify and mitigate OWASP vulnerabilities, ensuring robust security compliance.
+          - Collaborated on a cloud-native app for testing 5G nodes.
+          - Promoted operational efficiency through rigorous software testing, bug fixing, and process documentation, contributing to a seamless development cycle and product quality.
 
       - job: "Software Engineer Intern"
         company: "Workday"
@@ -220,9 +225,13 @@ params:
         featuredLink:
           enable: false
           url: "https://example.com"
+        info:
+          enable: true
+          content: "Technologies: Python, Groovy, Jenkins & Docker."
         content: |
-          - Built an application to automate changes in Cloud monitoring, including auditing,code review, backups, and versioning features.
-          - Conducted a workshop for senior developers, demonstrating application use.
+          - Built a Java & Spring app to identify and mitigate OWASP vulnerabilities, ensuring robust security compliance.
+          - Collaborated on a cloud-native app for testing 5G nodes.
+          Promoted operational efficiency through rigorous software testing, bug fixing, and process documentation, contributing to a seamless development cycle and product quality.
       
   # Education
   # education:
